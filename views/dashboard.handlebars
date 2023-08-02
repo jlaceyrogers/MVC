@@ -1,0 +1,12 @@
+<section class="dashboard">
+    {{#if posts}}
+    <ul>
+        {{#each posts}}
+        <li>{{this.title}} <a href="/post/edit/{{this.id}}">Edit</a></li>
+        {{/each}}
+    </ul>
+    {{else}}
+    <p>No posts yet. Create one!</p>
+    {{/if}}
+    <a href="/post/new">Create New Post</a>
+</section>

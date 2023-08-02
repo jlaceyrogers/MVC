@@ -1,0 +1,107 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header {
+    background-color: #50b3a2;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+nav a {
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.post {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 20px 0;
+}
+
+.post h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.comment {
+    background-color: #e1e1e1;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.comment p {
+    margin: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: #50b3a2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #339482;
+}
+
+/* Input styles */
+input[type="text"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+}
+
+button[type="submit"], .btn {
+    background-color: #50b3a2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover, .btn:hover {
+    background-color: #339482;
+}
+

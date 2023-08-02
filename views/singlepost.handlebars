@@ -1,0 +1,13 @@
+<article class="single-post">
+    <h1>{{post.title}}</h1>
+    <p>{{post.content}}</p>
+</article>
+
+<section class="comments">
+    {{#each comments}}
+    <div class="comment">
+        <p>{{this.content}}</p>
+        <p><strong>{{this.username}}</strong> - {{this.date}}</p>
+    </div>
+    {{/each}}
+</section>
